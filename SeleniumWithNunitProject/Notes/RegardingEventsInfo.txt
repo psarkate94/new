@@ -1,0 +1,11 @@
+﻿for capturing full page Screen shot
+need to add noksa.webdriver.screenshot extension	
+it having 3 namespace(WDSE,WDSE.Decorators,WDSE.Screenshotmaker)
+using WDSE;
+ ExtensionMethods class
+  TakeScreenshot – Extension method gets added to webdriver interface
+  ToMagicImage – Extension method for byte[] and used to save the image
+using WDSE.Decorators;
+ VerticalCombineDecorator – Sets vertical screen capture 
+using WDSE.ScreenshotMaker;
+ ScreenshotMaker – Generates the screenshot
